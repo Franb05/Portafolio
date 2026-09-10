@@ -156,3 +156,60 @@ footer a {
 footer p {
   margin-top: 2rem;
 }
+
+/* Tablet */
+@media (min-width: 768px) {
+  #sobreMi {
+    padding: 4rem 3rem;
+  }
+
+  .sobreMi-titulo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 2.5rem;
+    padding: 0 1rem;
+  }
+
+  #sobreMi img {
+    display: block;
+    width: 220px;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+
+  #tecnologias {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    padding: 4rem 3rem;
+  }
+
+  #tecnologias h2 {
+    grid-column: 1 / -1;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+
+  #proyectos {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    padding: 4rem 3rem;
+  }
+
+  #proyectos h2 {
+    grid-column: 1 / -1;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+
+  #proyectos article {
+    margin-bottom: 0;
+  }
+}
+
+/* Desktop */
+@media (min-width: 1024px) {
+}
