@@ -135,3 +135,24 @@ img {
   padding: 0.6rem 1rem;
   border-radius: 6px;
 }
+
+footer {
+  background-color: #1e3363;
+  color: white;
+  padding: 2.5rem 2rem;
+  text-align: center;
+}
+
+footer h2 {
+  margin-bottom: 1.5rem;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+  padding: 0 1rem;
+}
+
+footer p {
+  margin-top: 2rem;
+}
