@@ -53,7 +53,85 @@ nav a {
   margin: 0 auto;
   line-height: 1.6;
 }
+#sobreMi {
+  padding: 3rem 2rem;
+}
 
+#sobreMi h2 {
+  font-size: 1.8rem;
+  color: #1e3363;
+  margin-bottom: 1.5rem;
+}
+
+#sobreMi p {
+  line-height: 1.7;
+  margin: 0;
+}
 img {
   display: none;
+}
+#tecnologias {
+  padding: 3rem 2rem;
+}
+
+#tecnologias h2 {
+  font-size: 1.8rem;
+  color: #1e3363;
+  margin-bottom: 2rem;
+}
+
+#tecnologias > div {
+  background-color: white;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  border-radius: 10px;
+}
+
+#tecnologias h3 {
+  color: #1e3363;
+  margin-top: 0;
+}
+
+#tecnologias ul {
+  padding-left: 1.2rem;
+  margin-bottom: 0;
+}
+
+#tecnologias li {
+  margin-bottom: 0.6rem;
+}
+
+#proyectos {
+  padding: 3rem 2rem;
+}
+
+#proyectos h2 {
+  font-size: 1.8rem;
+  color: #1e3363;
+  margin-bottom: 2rem;
+}
+
+#proyectos article {
+  background-color: white;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  border-radius: 10px;
+}
+
+#proyectos article h3 {
+  color: #1e3363;
+  margin-top: 0;
+}
+
+#proyectos article p {
+  line-height: 1.6;
+}
+
+#proyectos article a {
+  display: inline-block;
+  background-color: #1e3363;
+  color: white;
+  text-decoration: none;
+  padding: 0.6rem 1rem;
+  border-radius: 6px;
 }
