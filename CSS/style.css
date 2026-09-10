@@ -2,6 +2,9 @@ header {
   background-color: #1e3363;
   color: white;
 }
+main {
+  background-color: #eef2f7;
+}
 .header-top {
   display: flex;
   justify-content: space-between;
@@ -28,4 +31,29 @@ nav ul {
 nav a {
   color: white;
   text-decoration: none;
+}
+
+#inicio {
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+#inicio h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+#inicio h2 {
+  font-size: 1.3rem;
+  margin-bottom: 1.5rem;
+}
+
+#inicio p {
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+img {
+  display: none;
 }
