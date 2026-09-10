@@ -21,6 +21,13 @@ main {
 #titulo {
   font-size: 2rem;
 }
+
+#proyectos a:hover,
+nav a:focus {
+  background-color: #2980b9; /* Un tono más oscuro al pasar el ratón */
+  border-radius: 0.5rem;
+}
+
 nav ul {
   display: flex;
   justify-content: center;
@@ -263,5 +270,16 @@ footer p {
   #proyectos {
     grid-template-columns: repeat(3, 1fr);
     padding: 5rem 4rem;
+  }
+
+  #proyectos article {
+    transition:
+      transform 0.2s ease,
+      box-shadow 0.2s ease;
+  }
+
+  #proyectos article:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
   }
 }
