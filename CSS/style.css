@@ -1,0 +1,31 @@
+header {
+  background-color: #1e3363;
+  color: white;
+}
+.header-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 3rem;
+}
+#menu-toggle {
+  font-size: 2rem;
+  color: white;
+  background-color: #1e3363;
+  border: none;
+  cursor: pointer;
+}
+#titulo {
+  font-size: 2rem;
+}
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  margin: 0;
+  padding: 0 1rem;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+}
