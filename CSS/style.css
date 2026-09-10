@@ -22,21 +22,26 @@ main {
   font-size: 2rem;
 }
 
-#proyectos a:hover,
-nav a:focus {
-  background-color: #2980b9; /* Un tono más oscuro al pasar el ratón */
-  border-radius: 0.5rem;
+/* Menú cerrado en celular y tablet */
+nav {
+  display: none;
+}
+
+nav.nav-open {
+  display: block;
 }
 
 nav ul {
   display: flex;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
   gap: 1rem;
   list-style: none;
   margin: 0;
-  padding: 0 1rem;
+  padding: 1rem;
 }
+
 nav a {
   color: white;
   text-decoration: none;
@@ -145,6 +150,12 @@ img {
   border-radius: 6px;
 }
 
+#proyectos a:hover,
+nav a:focus {
+  background-color: #2980b9; /* Un tono más oscuro al pasar el ratón */
+  border-radius: 0.5rem;
+}
+
 footer {
   background-color: #1e3363;
   color: white;
@@ -249,6 +260,18 @@ footer p {
 
 /* Desktop */
 @media (min-width: 1024px) {
+  #menu-toggle {
+    display: none;
+  }
+
+  nav {
+    display: block;
+  }
+
+  nav ul {
+    flex-direction: row;
+  }
+
   main {
     max-width: 1200px;
     margin: 0 auto;

@@ -9,13 +9,19 @@
   <body>
     <header>
       <div class="header-top">
-        <button type="button" id="menu-toggle" aria-label="Abrir menú">
+        <button
+          type="button"
+          id="menu-toggle"
+          aria-label="Abrir menú"
+          aria-expanded="false"
+          aria-controls="main-nav"
+        >
           &#9776;
         </button>
 
         <h1 id="titulo">Franco Ariel Brasa</h1>
       </div>
-      <nav>
+      <nav id="main-nav">
         <ul>
           <li><a href="#inicio">Inicio</a></li>
           <li><a href="#sobreMi">Sobre mi</a></li>
